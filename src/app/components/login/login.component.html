@@ -24,6 +24,7 @@
             placeholder="Ex. 123">
           </mat-form-field>
         <button 
+        (click)="logar()"
         [disabled]="!validaCampos()"
         mat-stroked-button 
         class="full-width mat-elevation-z4" 
